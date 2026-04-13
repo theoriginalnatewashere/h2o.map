@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilterActivity">
+
+    <Switch
+        android:id="@+id/safeWaterMachineSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/onlyTDSTestedWaterMachineSwitch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/Safe_Machine_only"
+        android:textSize="20sp"
+        android:textColor="@color/blueMap"
+        />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="361dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/Within_100_meters"
+        android:textSize="30sp"
+        android:textColor="@color/blueMap"
+        />
+
+    <SeekBar
+        android:id="@+id/distanceSeekBar"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <Switch
+        android:id="@+id/onlyTDSTestedWaterMachineSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/distanceSeekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="@string/Only_TDS_Tested_Machine"
+        android:textSize="20sp"
+        android:textColor="@color/blueMap"
+        />
+
+    <Button
+        android:id="@+id/applyFiltersButton"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:text="@string/Apply_Filters"
+        android:layout_centerHorizontal="true"
+        android:background="@color/blueMap"
+        android:textColor="#ffffff"
+        />
+
+</RelativeLayout>

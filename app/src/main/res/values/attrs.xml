@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="cardView">
+        <attr name="commentCount" format="integer" />
+        <attr name="thumbUp" format="integer" />
+        <attr name="thumbDown" format="integer" />
+    </declare-styleable>
+</resources>

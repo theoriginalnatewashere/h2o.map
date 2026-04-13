@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WaterProviderDescriptionActivity">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/waterProviderImage"
+        android:layout_width="352dp"
+        android:layout_height="398dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="35dp"
+        android:contentDescription="TODO"
+        tools:srcCompat="@tools:sample/avatars"
+        app:riv_corner_radius="14dip"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="#0000"
+            android:drawableTop="@drawable/share_button"
+            android:onClick="shareButtonPressed"
+            android:scaleType="fitXY"
+            android:text="@string/share"
+            android:textColor="@color/blueMap" />
+
+        <Button
+            android:id="@+id/directionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="#0000"
+            android:drawableTop="@drawable/direction"
+            android:onClick="directionButtonPressed"
+            android:scaleType="fitXY"
+            android:text="@string/direction"
+            android:textColor="@color/blueMap" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tdsTextView"
+        android:layout_width="211dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/waterProviderImage"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="57dp"
+        android:layout_toEndOf="@+id/waterDropImage"
+        android:gravity="center"
+        android:text="tdsValue text edit"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/waterDropImage"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/waterProviderImage"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="16dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/purityTextView"
+        android:layout_width="81dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/waterDropImage"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="5dp"
+        android:text="textView"
+        android:textSize="15sp" />
+
+</RelativeLayout>

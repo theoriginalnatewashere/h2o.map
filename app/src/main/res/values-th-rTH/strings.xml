@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">H2O map</string>
+    <string name="App_Unable_to_connect_to_server">ไม่สามารถที่จะติดต่อserverได้</string>
+    <string name="Apply_Filters">ตกลง</string>
+    <string name="Are_you_SURE_the_TDS_Meter_touched_the_water">แน่ใจหรือไม่ว่าเครื่องTDS จมอยู่ในน้ำ</string>
+    <string name="Incorrect_Link">Linkไม่สมบูรณ์</string>
+    <string name="No_filter_distance">ไม่ต้องเลือกระยะ</string>
+    <string name="Only_TDS_Tested_Machine">เฉพาะเครื่องที่ผ่านการตรวจสอบแล้ว</string>
+    <string name="Refill_water_here_on_H2O_Map_App">เติมน้ำได้ผ่านทางแอพ</string>
+    <string name="Safe_Machine_only">เฉพาะเครื่องที่เป็นสีเขียว</string>
+    <string name="TDS_Value">หน่วยTDS</string>
+    <string name="TDS_Value_colon">หน่วยค่าTDS</string>
+    <string name="Untested_Water">คุณภาพน้ำยังไม่ได้รับการทดสอบ</string>
+    <string name="add">เพิ่มรายการ</string>
+    <string name="address">ที่อยู่</string>
+    <string name="filter">กลอง</string>
+    <string name="is_this_the_same_water_vending_machine">อันนี้ใช่เครื่องเดียวกันหรือเปล่า</string>
+    <string name="no">ไม่</string>
+    <string name="no_add_it">ไม่เพิ่ม</string>
+    <string name="tds_value">หน่วยTDS</string>
+    <string name="update_tds_value">เพิ่มเติมหน่วยค่าTDS</string>
+    <string name="yes">ใช่</string>
+    <string name="Within_100_meters">ภายใน 100 เมตร</string>
+    <string name="WithinXMeters">ภายใน X เมตร</string>
+    <string name="Within_X_km_point_1_precision">ในระยะทาง %.1f กิโลเมตร</string>
+    <string name="share">ส่งให้เพื่อน</string>
+    <string name="direction">นำทาง</string>
+    <string name="sending_with_3_dots">กำลังส่ง</string>
+    <string name="high_purity">ความบริสุทธิ์สูง</string>
+    <string name="average_purity">ความบริสุทธิ์ปานกลาง</string>
+    <string name="poor_purity">ความบริสุทธิ์ต่ำ</string>
+    <string name="very_poor_purity">ไม่ควรบริโภค</string>
+    <string name="km">กิโลเมตร</string>
+    <string name="meters">เมตร</string>
+    <string name="Untested">ไม่ได้ทดสอบ</string>
+    <string name="low_purity">ต่ำ</string>
+</resources>

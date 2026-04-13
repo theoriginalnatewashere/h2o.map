@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">H2O map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="CleanWaterMap" translatable="false">H20 map</string>
+    <string name="PPM" translatable="false">PPM</string>
+    <string name="add">Add</string>
+    <string name="filter">Filter</string>
+    <string name="is_this_the_same_water_vending_machine">Is this the same water vending machine?</string>
+    <string name="no_add_it">NO, add it</string>
+    <string name="yes">Yes</string>
+    <string name="TDS_Value">TDS Value</string>
+    <string name="Are_you_SURE_the_TDS_Meter_touched_the_water">Are you SURE the TDS Meter touched the water?</string>
+    <string name="no">no</string>
+    <string name="No_filter_distance">No filter distance</string>
+    <string name="App_Unable_to_connect_to_server">App Unable to connect to server</string>
+    <string name="Untested_Water">Untested Water</string>
+    <string name="TDS_Value_colon">TDS Value:</string>
+    <string name="Incorrect_Link">Incorrect Link</string>
+    <string name="Refill_water_here_on_H2O_Map_App">Refill water here on H2O Map App</string>
+    <string name="WithinXMeters">Within X Meters</string>
+    <string name="Within_X_km_point_1_precision">Within %.1f km</string>
+    <string name="websiteLink" translatable="false">https://www.h2o-map.blue/</string>
+    <string name="Safe_Machine_only">Safe Machine only</string>
+    <string name="Within_100_meters">Within 100 meters</string>
+    <string name="Only_TDS_Tested_Machine">Only TDS Tested Machine</string>
+    <string name="Apply_Filters">Apply Filters</string>
+    <string name="tds_value">TDS Value</string>
+    <string name="address">Address:</string>
+    <string name="update_tds_value">Update TDS Value</string>
+    <string name="sending_with_3_dots">Sending...</string>
+    <string name="share">share</string>
+    <string name="direction">direction</string>
+    <string name="high_purity">High Purity</string>
+    <string name="average_purity">Average Purity</string>
+    <string name="poor_purity">Poor Purity</string>
+    <string name="low_purity">Low Purity</string>
+    <string name="very_poor_purity">Very Poor Purity</string>
+    <string name="Untested">Untested</string>
+    <string name="km">km</string>
+    <string name="meters">meters</string>
+</resources>
