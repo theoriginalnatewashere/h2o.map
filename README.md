@@ -8,6 +8,8 @@ This project explores how geospatial visualization can be used to better underst
 
 The prototype focuses on presenting information in a clear, spatial format to support exploration, pattern recognition, and decision-making.
 
+This work is based on a collaborative project, where contributions focused on data collection and front-end development.
+
 ## Features
 
 - Interactive map-based visualization  
@@ -25,6 +27,11 @@ The prototype focuses on presenting information in a clear, spatial format to su
 - Geospatial data processing  
 - Data visualization techniques  
 - Layer-based mapping  
+
+### Acknowledgements
+This project was developed in collaboration with @rufin_q.
+The original repository can be found here: https://github.com/rufinq/CleanWaterMapAndroidApp
+My contributions focused on data collection and front-end development.
 
 ## Install
 
